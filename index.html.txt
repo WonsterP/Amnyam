@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мясные натуральные деликатесы Саратов</title>
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f8f2; margin: 0; color: #31271e;}
+    header { background: #e7cfa3; padding: 40px 0 25px 0; text-align: center;}
+    header h1 { font-size: 2.3em; margin-bottom: 10px;}
+    .subtitle { font-size: 1.2em; color: #a77a3a;}
+    .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; background: #fffbe9; padding: 30px 0;}
+    .gallery img { width: 220px; border-radius: 20px; box-shadow: 0 2px 10px #e8e0c7;}
+    section { max-width: 900px; margin: 40px auto; padding: 0 20px;}
+    h2 { margin-top: 40px;}
+    ul { padding-left: 20px;}
+    .product-list li { margin-bottom: 6px; }
+    .adv { background: #f6ecd6; border-radius: 16px; padding: 20px; margin: 25px 0;}
+    .order-form { background: #f7f7ee; border-radius: 16px; padding: 19px 16px; margin: 30px 0;}
+    .order-form input, .order-form textarea, .order-form select { width: 100%; margin-bottom: 12px; padding: 8px; border-radius: 7px; border: 1px solid #bea77c;}
+    .order-form button { background: #a77a3a; color: #fff; font-weight: bold; padding: 12px 28px; border: none; border-radius: 8px; cursor: pointer;}
+    .contacts { background: #ede0c9; border-radius: 12px; padding: 18px 13px; margin: 25px 0;}
+    footer { background: #e7cfa3; text-align: center; padding: 20px; font-size: 1em; margin-top: 35px;}
+  </style>
+</head>
+<body>
+
+<!-- Первый экран -->
+<header>
+  <h1>Натуральные мясные деликатесы — ремесленный цех, ручная работа</h1>
+  <div class="subtitle">Доставка по Саратову и Энгельсу</div>
+</header>
+
+<!-- Галерея фото -->
+<div class="gallery">
+  <img src="photo_2025-11-18_22-22-29.jpg" alt="Домашние колбаски">
+  <img src="photo_2025-11-18_22-23-06.jpg" alt="Копченая утка">
+  <img src="photo_2025-11-18_22-22-51.jpg" alt="Нарезка деликатес">
+  <img src="photo_2025-11-18_22-23-03.jpg" alt="Колбаса с/к">
+  <!-- Добавь свои фото дальше -->
+</div>
+
+<section>
+  <!-- Преимущества -->
+  <div class="adv">
+    <h2>Почему выбирают нас?</h2>
+    <ul>
+      <li>Только натуральное мясо и специи</li>
+      <li>Без «жидкого дыма», красителей и ГМО</li>
+      <li>Технология томления и копчения по принципу русской печи</li>
+      <li>Сыровяленое, копченое и су-вид — на любой вкус</li>
+      <li>Ручная работа и авторские рецепты</li>
+      <li>Быстрая доставка на дом</li>
+    </ul>
+  </div>
+  
+  <!-- Ассортимент -->
+  <h2>Ассортимент</h2>
+  <ul class="product-list">
+    <li>Колбаса «Фирменная» (Краковская)</li>
+    <li>Колбаса «Говяжья»</li>
+    <li>Шейка свиная копченая «Поволжская»</li>
+    <li>Филе грудки индейки «Фонарик»</li>
+    <li>Рулет из бедра индейки</li>
+    <li>Рулет свинина «Баварский»</li>
+    <li>Вырезка свиная «Смак»</li>
+    <li>Грудинка свиная «Приморская»</li>
+    <li>Колбаски «Арбатские» / «Хазарские»</li>
+    <li>Колбаса «Балыковая» / «Филейная»</li>
+    <li>Ветчина «Честная»</li>
+    <li>Сервелат «Триумф»</li>
+    <li>Окорок свиной «Деликатесный»</li>
+    <li>Ребра свиные мясные</li>
+    <li>Копченая утка, утиная грудка</li>
+    <li>Филе индейки — сыровяленое/сырокопченое</li>
+    <li>Язык говяжий, рулеты, нарезки</li>
+    <li>Куриное филе, окорочка, утиное конфи (су-вид)</li>
+  </ul>
+
+  <!-- Форма заказа -->
+  <div class="order-form">
+    <h2>Закажите свежие деликатесы!</h2>
+    <form>
+      <input type="text" placeholder="Ваше имя" required>
+      <input type="tel" placeholder="Телефон для связи" required>
+      <select required>
+          <option value="">Выберите продукт</option>
+          <option>Колбаса «Фирменная»</option>
+          <option>Копченая утка</option>
+          <option>Рулет свинина</option>
+          <option>Филе индейки</option>
+          <!-- Добавь варианты -->
+      </select>
+      <textarea placeholder="Адрес, комментарий" rows="3"></textarea>
+      <button type="submit">Оформить заказ</button>
+    </form>
+  </div>
+
+  <!-- Контакты -->
+  <div class="contacts">
+    <h2>Контакты</h2>
+    <p><strong>Телефон:</strong> +7 (XXX) XXX-XX-XX</p>
+    <p><strong>WhatsApp / Telegram:</strong> @ваш_ник</p>
+    <p>Доставка: Саратов, Энгельс, пригороды</p>
+  </div>
+
+  <!-- Гарантии -->
+  <div>
+    <h2>Гарантия качества</h2>
+    <p>Продукция сертифицирована, сроки всегда свежие. Можно запросить фото и видео производства, сертификаты и подробные сведения о составе.</p>
+  </div>
+</section>
+
+<footer>
+  2025 © Натуральные мясные деликатесы «Саратов» | Сделано вручную с заботой
+</footer>
+</body>
+</html>
